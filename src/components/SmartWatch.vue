@@ -58,7 +58,7 @@ export default {
                         }
                     });
 
-                    this.model.scale.set(0.4, 0.4, 0.4);
+                    this.model.scale.set(0.3, 0.3, 0.3);
 
                     this.scene.add(this.model);
                 },
@@ -96,7 +96,8 @@ export default {
 
 <style scoped>
 #container {
-    height: 200px;
+    height: 400px;
+    padding: 30px;
     /* width: 200px; */
 }
 /* #wrapper {
