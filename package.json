@@ -36,7 +36,7 @@
       "parser": "babel-eslint"
     },
     "rules": {
-      "strict": "off"
+      "no-unused-vars": 1
     }
   },
   "browserslist": [
